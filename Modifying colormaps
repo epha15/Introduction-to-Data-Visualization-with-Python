@@ -12,7 +12,7 @@ plt.title('Gray')
 
 # Create a filled contour plot with a color map of 'autumn'
 plt.subplot(2,2,3)
-plt.contourf(X,Y,Z, cmap='autumn')
+plt.contourf(X,Y,Z, 20, cmap='autumn')
 plt.colorbar()
 plt.title('Autumn')
 
