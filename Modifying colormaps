@@ -18,7 +18,7 @@ plt.title('Autumn')
 
 # Create a filled contour plot with a color map of 'winter'
 plt.subplot(2,2,4)
-plt.contour(X,Y,Z, cmap = 'winter')
+plt.contour(X,Y,Z, ,20,cmap = 'winter')
 plt.colorbar()
 plt.title('Winter')
 
