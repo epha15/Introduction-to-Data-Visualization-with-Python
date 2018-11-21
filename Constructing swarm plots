@@ -4,7 +4,7 @@ sns.swarmplot(x='cyl',y='hp', data=auto)
 
 # Generate a swarm plot of 'hp' grouped vertically by 'cyl' with a hue of 'origin'
 plt.subplot(2,1,2)
-sns.swarmplot(x='cyl', y='hp', data=auto, hue='origin')
+sns.swarmplot(x='hp', y='cyl', data=auto, hue='origin', orient='h')
 
 # Display the plot
 plt.show()
